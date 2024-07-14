@@ -1,0 +1,17 @@
+{
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["grabkit.yml", "doc.go"],
+      "filetypes": ["go"],
+      "disableWorkspaceFolders": true,
+      "initializationOptions": {
+        "usePlaceholders": true,
+        "completeUnimported": true,
+        "expandWorkspaceToModule": false
+      }
+    }
+  },
+  "tsserver.implicitProjectConfig.experimentalDecorators": true,
+  "rust-analyzer.enable": true
+}

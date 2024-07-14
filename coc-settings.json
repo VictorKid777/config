@@ -1,0 +1,29 @@
+{
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["grabkit.yml", "doc.go"],
+      "filetypes": ["go"],
+      "disableWorkspaceFolders": true,
+      "initializationOptions": {
+        "usePlaceholders": true,
+        "completeUnimported": true,
+        "expandWorkspaceToModule": false
+      }
+    }
+  },
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "scss",
+    "sass",
+    "markdown",
+    "json",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.options": {
+    "configFile": "/Users/victor.lai/grab/web-kit/web-app/packages/ad-manager-ui/.eslintrc"
+  }
+}
